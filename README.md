@@ -6,4 +6,5 @@ This template should help get you started developing with mustache and bootstrap
 git clone https://github.com/CairBin/ExpressTemplate.git
 cd ExpressTemplate
 npm install
+npm start
 ```
