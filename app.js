@@ -17,7 +17,8 @@ const __dirname = dirname(__filename)
 const app = express()
 
 //static file
-app.use(express.static(path.join(__dirname,localConfig.path.static)))
+app.use(express.static(path.join(__dirname, localConfig.path.static)))
+app.use(express.urlencoded({ extended: false }))
 
 //template
 app.engine('mustache', mustacheExpress());
